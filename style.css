@@ -53,6 +53,13 @@ a {
     color: black;
 }
 
+#speciel {
+    display: flex;
+    color: black;
+    width: 25;
+    height: 25;
+}
+
 @media screen and (max-width: 768px) {
     .navs {
         flex-direction: column;

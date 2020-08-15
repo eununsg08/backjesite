@@ -50,14 +50,6 @@ a {
     position: absolute;
     right: 32px;
     font-size: 24px;
-    color: black;
-}
-
-#speciel {
-    display: flex;
-    color: black;
-    width: 25;
-    height: 25;
 }
 
 @media screen and (max-width: 768px) {

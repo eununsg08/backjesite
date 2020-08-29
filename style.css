@@ -95,14 +95,10 @@ a {
     .navs_sns.active {
         display: flex;
     }
-
+    
     .newBox {
         flex-wrap: wrap;
         display: flex;
-    }
-
-    .img {
-        width: 10;
     }
 }
 

@@ -14,7 +14,6 @@ console.log('3');
 class UserStorage {
     loginUser(id, password) {
         return new Promise((resolve,reject) => {
-            setTimeout(() => {
                 if (
                     (id === '민경일' && password === 'ㅁㄹㅇㅌ') ||
                     (id === '민경이' && password === 'ㅁㄹ2ㅌ')
@@ -23,25 +22,23 @@ class UserStorage {
                 } else {
                     reject(new Error('not found'));
                 }
-            }, 2000);
+            
         });    
     }        
         
     getRoles(user) {
         return new Promise((resolve, reject) => {
-        setTimeout(() => {
             if (user === 'ellie') {
                 resolve({ name: 'ellie', role: 'admin'});
             } else {
                 reject(new Error('no access'));
             }
-        }, 1000);
         });
     }
 }
 const userStorage = new UserStorage();
-const id = prompt('이름말해');
-const password = prompt('코드는?');
+const id = prompt('이태우 개새끼');
+const password = prompt('씨2발 밀크쉐이크');
 
 userStorage
 .loginUser(id,password)

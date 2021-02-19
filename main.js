@@ -37,8 +37,8 @@ class UserStorage {
     }
 }
 const userStorage = new UserStorage();
-const id = prompt('이태우 개새끼');
-const password = prompt('씨2발 밀크쉐이크');
+const id = prompt('PPP');
+const password = prompt('DDD');
 
 userStorage
 .loginUser(id,password)

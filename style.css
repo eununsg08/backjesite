@@ -108,7 +108,11 @@ a {
     }
     
     .site-logo-box {
-        width: 50rem;
+        width: 10rem;
+    }
+
+    .site-logo-sentence {
+        width: auto 0;
     }
 }
 

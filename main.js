@@ -7,10 +7,6 @@ toggleBtn.addEventListener('click', ()=> {
     sns.classList.toggle('active');
 });
 
-console.log('1');
-setTimeout(() => console.log('2'), 1000);
-console.log('3');
-
 class UserStorage {
     loginUser(id, password) {
         return new Promise((resolve,reject) => {
@@ -37,8 +33,8 @@ class UserStorage {
     }
 }
 const userStorage = new UserStorage('ellie');
-const id = prompt('PPP');
-const password = prompt('DDD');
+const id = prompt('1');
+const password = prompt('2');
 
 userStorage
 .loginUser(id,password)

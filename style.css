@@ -1,11 +1,10 @@
 body {
-    margin: 0;
-    font-family: 'Source Sans pro';
+    font-family: NanumSquareR;
 }
 
 a {
     text-emphasis: none;
-    color: aliceblue;
+    color: #ffff;
 }
 
 .navs {
@@ -21,6 +20,7 @@ a {
 }
 
 .navs_menu {
+    margin-top: 5%;
     display: flex;
     list-style: none;
     padding-left: 0;
@@ -106,6 +106,26 @@ a {
         flex-wrap: wrap;
         display: flex;
     }
+}
+
+.site-logo-box {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 100rem;
+    height: 15rem;
+    object-fit: contain;
+    border-radius: 10px;
+    border: solid 4px var(--dark-grey-blue);
+    background-color: aqua;
+}
+
+.site-logo-sentence {
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    height: 2rem;
+    font-size: 200%;
+    color: #ffff;
 }
 
 

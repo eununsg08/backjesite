@@ -106,6 +106,10 @@ a {
         flex-wrap: wrap;
         display: flex;
     }
+    
+    .site-logo-box {
+        width: 50rem;
+    }
 }
 
 .site-logo-box {

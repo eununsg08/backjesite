@@ -55,6 +55,12 @@ a {
 .newBox {
     display: inline-block;
     flex-wrap: nowrap;
+    width: 80rem;
+    height: 85rem;
+    object-fit: contain;
+    border-radius: 12px;
+    border: solid 2px var(--dark-grey-blue);
+    background-color: gray;
 }
 
 .newBox li {
@@ -73,7 +79,7 @@ a {
     object-fit: contain;
     border-radius: 12px;
     border: solid 2px var(--dark-grey-blue);
-    background-color: aqua;
+    background-color: gray;
 }
 
 .site-logo-sentence {
@@ -84,7 +90,6 @@ a {
     font-size: 200%;
     color: #ffff;
 }
-
 
 @media screen and (max-width: 600px) {
     .navs {
